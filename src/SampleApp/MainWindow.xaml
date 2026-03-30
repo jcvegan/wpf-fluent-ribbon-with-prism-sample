@@ -12,10 +12,12 @@
     <mah:MetroWindow.TitleTemplate>
         <DataTemplate>
             <fluent:RibbonTitleBar x:Name="RibbonTitleBar" 
-                               Header="{Binding Path=Title, RelativeSource={RelativeSource AncestorType=Window}}" 
-                               DataContext="{Binding Path=DataContext, RelativeSource={RelativeSource AncestorType=Window}}"
-                               UseLayoutRounding="True" 
-                               SnapsToDevicePixels="True" />
+                                   Header="{Binding Path=Title, RelativeSource={RelativeSource AncestorType=Window}}" 
+                                   DataContext="{Binding Path=DataContext, RelativeSource={RelativeSource AncestorType=Window}}"
+                                   UseLayoutRounding="True" 
+                                   SnapsToDevicePixels="True"
+                                   HideContextTabs="False"
+                                   />
         </DataTemplate>
     </mah:MetroWindow.TitleTemplate>
     <Grid>
